@@ -9,7 +9,6 @@ var out = require('out');
 app.get('/', function(request, response) {
 
   buffer = (fs.readFile("index.html"));
-  out = buffer.toString();
   response.send('valami');
 });
 
