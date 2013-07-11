@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
 
   buffer = (fs.readFile("index.html"));
   out = buffer.toString();
-  response.send(out);
+  response.send('valami');
 });
 
 var port = process.env.PORT || 5000;
