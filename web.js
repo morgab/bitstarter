@@ -6,9 +6,9 @@ var fs = require('fs');
 
 app.get('/', function(request, response) {
    
-   var out = "valami";
+   var out = "valami2";
 
-   response.send('valami');
+   response.send(out);
 });
 
 var port = process.env.PORT || 5000;
