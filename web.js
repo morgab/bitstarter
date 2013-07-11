@@ -3,6 +3,9 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 var fs = require('fs');
+var out = require('out');
+
+out = "valami2";
 
 app.get('/', function(request, response) {
 
